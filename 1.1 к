@@ -18,7 +18,7 @@ int main()
 			cout << y << " ";
 		}
 	}
-	cout << " z = " << abs(phi) << " z = " << max;
+	cout << " z = " << abs(z) << " z = " << max;
 	return 0;
 	system("pause");
 }
