@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char* argv[])
+{
+	int i, Sym = 0;
+	cout << "Vvedi kol-vo elementov: ";
+	int a[5];
+	for (i = 0; i < 5; i++)
+	{
+		cout << "Vvod a[" << i << "] elementa: ";
+		cin >> a[i];
+	}
+	for (i = 0; i < 5; i++)
+	{
+		cout << "a[" << i << "]=" << a[i] << endl;
+	}
+	for (i = 0; i < 5; i++)
+		if (a[i] % 2 != 0)
+		{
+			Sym += a[i];
+		}
+	cout << "sred arif=" << Sym / 5 << endl;
+}
