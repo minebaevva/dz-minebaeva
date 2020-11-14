@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+int a,b,c,d,q=0;
+  cin»a;
+  cin»b;
+  cin»c;
+  cin»d;
+  for (int i=10000; i<=99999;i++)
+if (i % a ==b && i % c == d)
+{
+cout«i«' ';
+q=1;
+}
+  if (q==0)
+cout«-1;
+}
